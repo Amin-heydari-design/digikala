@@ -1,0 +1,139 @@
+.redslide__con {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .red__slider {
+    width: 90%;
+    height: 295px;
+    background-color: #ee384e;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    .swiper-slide {
+      .redswiper__more {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        .redswiper__more__svg {
+          width: 52px;
+          height: 52px;
+          border: 3px solid #8cdfe9;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          svg {
+            width: 32px;
+            height: 32px;
+            fill: #8cdfe9;
+            line-height: 52px;
+          }
+        }
+      }
+      .swiper__slide__col {
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+        .swiper__slide__row__1 {
+          width: 100%;
+          margin-bottom: 8px;
+          img {
+            width: 100%;
+          }
+        }
+        .swiper__slide__row__2 {
+          width: 100%;
+          margin-bottom: 5px;
+          p {
+            font-size: 12px;
+          }
+        }
+        .swiper__slide__row__3 {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          .discount {
+            width: 40px;
+            line-height: 20px;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            border-radius: 15px;
+            background-color: #ee384e;
+            display: inline-block;
+            padding: 3px 6px;
+            font-family: homa;
+            line-height: 20px;
+          }
+          .price {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-family: homa;
+
+            svg {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+        .swiper__slide__row__4 {
+          .price {
+            text-decoration: line-through;
+            color: #2b2b2b54;
+            font-size: 14px;
+            display: block;
+            text-align: left;
+            padding-left: 14px;
+            font-family: homa;
+          }
+        }
+      }
+
+      &:nth-of-type(1) {
+        background-color: transparent;
+        .red__slider1 {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          row-gap: 20px;
+          svg {
+            width: 88px;
+            height: 88px;
+          }
+          a {
+            height: 24px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .svg__read {
+              width: 18px;
+              height: 18px;
+              fill: white;
+              line-height: 24px;
+            }
+            font-size: 12px;
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        border-radius: 0 8px 8px 0;
+      }
+      &:nth-last-of-type(1) {
+        border-radius: 16px 0 0 8px;
+      }
+    }
+  }
+}

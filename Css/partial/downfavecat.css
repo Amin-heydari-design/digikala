@@ -1,0 +1,16 @@
+.d__fav__cat {
+  width: 100%;
+  .d__fav__cat__col {
+    width: 20%;
+    .d__fav__cat__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row nowrap;
+      img {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+}

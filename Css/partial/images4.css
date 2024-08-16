@@ -1,0 +1,15 @@
+.images__con_4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  .images__col {
+    cursor: pointer;
+    img {
+      border-radius: 16px;
+      width: 322px;
+      height: 241.5px;
+    }
+  }
+}

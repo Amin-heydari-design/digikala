@@ -1,0 +1,30 @@
+.story {
+  width: 100%;
+  height: 175px;
+  padding: 0 20px;
+  .swiper-slide {
+    .swiper__slide__col {
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        border: 1px solid purple;
+        border-left: unset;
+        border-right: unset;
+        outline: 2px solid purple;
+        outline-offset: 4px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}

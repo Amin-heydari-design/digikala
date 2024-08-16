@@ -1,0 +1,29 @@
+.cat_mid {
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+}
+.cat__mid__icon {
+  cursor: pointer;
+  margin: 50px auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  .cat__mid__icon__1 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    .cat__mid__image {
+      width: 100%;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.ads__mid {
+  width: 100%5;
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px;
+  align-items: center;
+  .ads__image {
+    width: 100%;
+    img {
+      width: 660px;
+      height: 264px;
+      border-radius: 12px;
+    }
+  }
+}
